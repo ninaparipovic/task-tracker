@@ -10,6 +10,7 @@ import RealmSwift
 
 struct ProjectsView: View {
     @EnvironmentObject var state: AppState
+    @EnvironmentObject var store: ActivityStore
 
     @State var projectName = ""
     @State var showingTasks = false
@@ -23,6 +24,17 @@ struct ProjectsView: View {
 
     var body: some View {
         VStack(spacing: Dimensions.padding) {
+            VStack {
+                Text("hello")
+//                ForEach(store.activities) { activity in
+//                    Text(activity.title)
+//                }
+            }
+
+//            Button(action: { store.create(title: "new activity")}) {
+//                Text("Add")
+//            }
+
             if let projects = state.user?.memberOf {
                 ForEach(projects, id: \.self) { project in
                     HStack {

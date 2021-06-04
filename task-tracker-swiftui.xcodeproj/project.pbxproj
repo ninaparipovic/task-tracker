@@ -41,6 +41,8 @@
 		49CDF77025515DDE00DCFB28 /* LabeledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDF76F25515DDE00DCFB28 /* LabeledButton.swift */; };
 		49F2187D2562DC7A00EFDE0B /* LastUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F2187C2562DC7A00EFDE0B /* LastUpdate.swift */; };
 		51084F48300AC6D03757C3B6 /* Pods_task_tracker_swiftui_task_tracker_swiftuiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC69DDC42998E660E737A641 /* Pods_task_tracker_swiftui_task_tracker_swiftuiUITests.framework */; };
+		72AFF68A2669E6950026D9A9 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AFF6892669E6950026D9A9 /* Activity.swift */; };
+		72AFF68C2669EA4F0026D9A9 /* ActivityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AFF68B2669EA4F0026D9A9 /* ActivityStore.swift */; };
 		FAE3B1C9D8F9A8D267E25D50 /* Pods_task_tracker_swiftui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F33C0A83A43F0E7C0A887F1 /* Pods_task_tracker_swiftui.framework */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +106,8 @@
 		49CDF76F25515DDE00DCFB28 /* LabeledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledButton.swift; sourceTree = "<group>"; };
 		49F2187C2562DC7A00EFDE0B /* LastUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastUpdate.swift; sourceTree = "<group>"; };
 		67E8664D207CB5A653880BC4 /* Pods-task-tracker-swiftui-task-tracker-swiftuiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task-tracker-swiftui-task-tracker-swiftuiUITests.release.xcconfig"; path = "Target Support Files/Pods-task-tracker-swiftui-task-tracker-swiftuiUITests/Pods-task-tracker-swiftui-task-tracker-swiftuiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		72AFF6892669E6950026D9A9 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		72AFF68B2669EA4F0026D9A9 /* ActivityStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStore.swift; sourceTree = "<group>"; };
 		A51CC2F41779CBBE42E0CB71 /* Pods-task-tracker-swiftui-task-tracker-swiftuiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task-tracker-swiftui-task-tracker-swiftuiUITests.debug.xcconfig"; path = "Target Support Files/Pods-task-tracker-swiftui-task-tracker-swiftuiUITests/Pods-task-tracker-swiftui-task-tracker-swiftuiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE0175324FB02C26F33D9EEC /* Pods_task_tracker_swiftuiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_task_tracker_swiftuiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC69DDC42998E660E737A641 /* Pods_task_tracker_swiftui_task_tracker_swiftuiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_task_tracker_swiftui_task_tracker_swiftuiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +175,8 @@
 				494742BF255165DA00FF9F51 /* User.swift */,
 				494742C7255165EB00FF9F51 /* Project.swift */,
 				494742CC2551660400FF9F51 /* Task.swift */,
+				72AFF6892669E6950026D9A9 /* Activity.swift */,
+				72AFF68B2669EA4F0026D9A9 /* ActivityStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -540,6 +546,7 @@
 			files = (
 				4947429D2551647400FF9F51 /* ProjectsView.swift in Sources */,
 				494742B1255164D400FF9F51 /* UpdateTaskView.swift in Sources */,
+				72AFF68A2669E6950026D9A9 /* Activity.swift in Sources */,
 				49CDF74625515CE300DCFB28 /* TeamsView.swift in Sources */,
 				4982D43425540B1C00E874B1 /* AppState.swift in Sources */,
 				49CDF74E25515D1100DCFB28 /* AddTeamMemberView.swift in Sources */,
@@ -552,6 +559,7 @@
 				49CDF76B25515DC700DCFB28 /* CallToActionButton.swift in Sources */,
 				49CDF76625515DB000DCFB28 /* CaptionLabel.swift in Sources */,
 				49A7A394255D42AB008E9FA0 /* PreviewHelpers.swift in Sources */,
+				72AFF68C2669EA4F0026D9A9 /* ActivityStore.swift in Sources */,
 				49F2187D2562DC7A00EFDE0B /* LastUpdate.swift in Sources */,
 				49CDF76125515D9900DCFB28 /* InputField.swift in Sources */,
 				49474289255163CC00FF9F51 /* LogoutButton.swift in Sources */,

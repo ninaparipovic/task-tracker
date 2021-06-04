@@ -11,8 +11,8 @@ import RealmSwift
 struct LoginView: View {
 
     @EnvironmentObject var state: AppState
-    @State private var username = ""
-    @State private var password = ""
+    @State private var username = "e"
+    @State private var password = "pppppp"
     @State private var newUser = false
 
     private enum Dimensions {

@@ -6,9 +6,18 @@
 //
 
 import SwiftUI
+import RealmSwift
 
 struct ContentView: View {
     @EnvironmentObject var state: AppState
+
+//    try {
+//        let realm = try Realm()
+//    } catch error {
+//        // Handle error
+//        fatalError("Failed to open Realm. Error: \(error.localizedDescription)")
+//      }
+    let realm = try! Realm()
 
     var body: some View {
         NavigationView {
@@ -16,6 +25,7 @@ struct ContentView: View {
                 VStack {
                     if state.loggedIn {
                         ProjectsView()
+                            .environmentObject(ActivityStore(realm: realm))
                     } else {
                         LoginView()
                     }
